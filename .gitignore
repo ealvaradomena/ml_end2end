@@ -1,0 +1,36 @@
+# Historical files
+/old/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow
+/mlflow.db
+/mlruns/
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# IDE settings
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+*~
+
+# Exclude the project-local Python environment
+.conda/
